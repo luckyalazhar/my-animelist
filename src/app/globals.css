@@ -1,4 +1,10 @@
 @import "tailwindcss";
+@theme {
+--color-primary: oklch(0.93 0 0);  /* #eeeeee → abu-abu sangat terang */
+--color-accent: oklch(0.8 0.17 80);  /* #ffc639 → kuning-oranye */
+--color-secondary: oklch(0.45 0.03 260);  /* #393e46 → abu-abu kebiruan */
+--color-dark: oklch(0.35 0.03 260);  /* #222831 → abu-abu biru gelap */
+}
 
 img {
   transition: .3s ease all;
@@ -7,3 +13,4 @@ img {
 img:hover {
   scale: 102%;
 }
+
