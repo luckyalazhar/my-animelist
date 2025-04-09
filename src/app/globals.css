@@ -1,23 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: oklch(0.93 0 0);
-  /* #eeeeee → abu-abu sangat terang */
-  --color-accent: oklch(0.8 0.17 80);
-  /* #ffc639 → kuning-oranye */
-  --color-secondary: oklch(0.45 0.03 260);
-  /* #393e46 → abu-abu kebiruan */
-  --color-dark: oklch(0.35 0.03 260);
-  /* #222831 → abu-abu biru gelap */
+   /* --color-primary: oklch(63.23% 0.12 281.62); */
+   --color-primary: oklch(83.23% 0.12 281.62);
+   --color-accent: oklch(40.04% 0.13 271.41);
+   --color-secondary: oklch(13.36% 0.13 281.96);
+   --color-dark: oklch(6.67% 0.07 260.15);
+   /* --color-primary: oklch(89.68% 0.08 102.12);
+   --color-accent: oklch(22.17% 0.09 265.17);
+   --color-secondary: oklch(70.71% 0.11 243.98);
+   --color-dark: oklch(10.31% 0.03 248.06); */
 }
- 
+
 .spinner {
    width: 56px;
    height: 56px;
    border-radius: 50%;
-   border: 9px solid #ffc639;
+   border: 9px solid #6EACDA;
    animation: spinner-bulqg1 0.8s infinite linear alternate,
-        spinner-oaa3wk 1.6s infinite linear;
+      spinner-oaa3wk 1.6s infinite linear;
 }
 
 @keyframes spinner-bulqg1 {
@@ -70,9 +71,9 @@
 
 
 img {
-  transition: .3s ease all;
+   transition: .3s ease all;
 }
 
 img:hover {
-  scale: 102%;
+   scale: 102%;
 }
