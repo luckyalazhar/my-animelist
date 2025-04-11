@@ -1,4 +1,4 @@
-import { getAnimeResponse } from "@/app/libs/app-libs";
+import { getAnimeResponse } from "@/libs/app-libs";
 import VideoPlayer from "@/components/Utilities/VideoPlayer";
 import Image from "next/image";
 

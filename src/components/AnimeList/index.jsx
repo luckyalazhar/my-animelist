@@ -14,7 +14,7 @@ const AnimeList = ({ api }) => {
             <Image
               src={anime.images.webp.image_url}
               width={350}
-              height={350}
+              height={350} 
               alt="..."
               className="w-full max-h-64 object-cover"
             />
